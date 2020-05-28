@@ -3,6 +3,7 @@ fetch('https://2ubiyjczwh.execute-api.eu-west-2.amazonaws.com/wall').then(respon
 function addToSite(lists){
 
     let liveList = document.getElementById('list');
+    
     lists.forEach(list => {
     let x = document.createElement('li');
     x.innerText= list;
@@ -23,8 +24,12 @@ function saveContent(){
     })
 
     let liveList = document.getElementById('list').lastElementChild;
+
     let newContent = document.createElement('li');
+
     newContent.innerText= actualContent;
+
     liveList.appendChild(newContent);
+
     return false;
 }

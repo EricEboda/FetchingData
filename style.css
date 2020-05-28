@@ -1,10 +1,16 @@
+@font-face{
+    font-family: 'Bratt Graner';
+    src: url(fonts/Bratt\ Graner.ttf);
+    font-style: normal;
+}
+
 body {
     width: 100%;
     height: 100%;
     background: url("images/sitebg.jpg") no-repeat center fixed;
     background-size: cover;
     font-size: 20px;
-    font-family: verdana;
+    font-family: 'Bratt Graner', 'verdana';
 }
 
 h1 {

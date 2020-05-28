@@ -1,9 +1,3 @@
-@font-face{
-    font-family: 'Bratt Graner';
-    src: url(fonts/Bratt\ Graner.ttf);
-    font-style: normal;
-}
-
 body {
     width: 100%;
     height: 100%;
@@ -18,7 +12,6 @@ h1 {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: center;
-    font-family: 'Bratt Graner', verdana;
 }
 
 form {

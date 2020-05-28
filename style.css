@@ -10,7 +10,7 @@ body {
     background: url("images/sitebg.jpg") no-repeat center fixed;
     background-size: cover;
     font-size: 20px;
-    font-family: 'Bratt Graner', 'verdana';
+    font-family: verdana;
 }
 
 h1 {
@@ -18,6 +18,7 @@ h1 {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: center;
+    font-family: 'Bratt Graner', verdana;
 }
 
 form {

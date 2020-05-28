@@ -8,11 +8,11 @@
     <body>
         <h1>Hello, Submit your Form Below!</h1>
 
-        <div class="container">
-            <form id="mainForm">
+        <div>
+            <form id="mainForm" onsubmit="saveContent()">
                 <label for="content">Content:</label>
                 <input type="text" name="content" placeholder="Enter the content here..." required>
-                <button type="submit" onsubmit="saveContent()">Send</button>
+                <button type="submit">Send</button>
             </form>
         </div>
         <br>
